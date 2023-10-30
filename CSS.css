@@ -1,0 +1,59 @@
+* {
+	margin:0;
+}
+body {
+	font-family: Ariel, sans-serif;
+	font-size: 16px;
+	display: flex;
+	flex-direction: colum;
+	min-hight: 100vh;
+}
+
+header {
+	background-coulor: #fef7ec;
+	padding: 20px;
+}
+
+h1 {
+	font-family: Georgia, serif;
+}
+
+nav {
+	background-color: #873600;
+	color: cyan
+	padding:10px;
+}
+
+main{
+	padding: 20px;
+}
+
+footer {
+	background-color: #1c2833;
+	font-size: 14px;
+	font-style: italic;
+	color: white
+	margin-top: auto;
+	padding: 10px;
+}
+
+table, td, th {
+			border: 1px solid #000000;
+			border-spacing: 0;
+}
+table {
+	width 75%;
+	margin: auto;
+}
+
+td, th {
+	pading: 5px;
+}
+
+th, caption {
+	font-family: Georgia, serif;
+}
+
+td {
+font-family: Tahoma, sans-serif;
+}
