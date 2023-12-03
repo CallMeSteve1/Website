@@ -5,8 +5,10 @@ body {
 	font-family: Ariel, sans-serif;
 	font-size: 16px;
 	display: flex;
-	flex-direction: colum;
+	flex-direction: column;
 	min-hight: 100vh;
+	background-color: black;
+	color: white;
 }
 
 header {
@@ -16,12 +18,13 @@ header {
 
 h1 {
 	font-family: Georgia, serif;
+	right: 100%;
 }
 
 nav {
-	background-color: #873600;
-	color: cyan
-	padding:10px;
+	background-color: #AFEEEE !important;
+	color: cyan !important;
+	padding:10px !important;
 }
 
 main{
@@ -32,14 +35,14 @@ footer {
 	background-color: #1c2833;
 	font-size: 14px;
 	font-style: italic;
-	color: white
+	color: white;
 	margin-top: auto;
 	padding: 10px;
 }
 
 table, td, th {
-			border: 1px solid #000000;
-			border-spacing: 0;
+	border: 1px solid #000000;
+	border-spacing: 0;
 }
 table {
 	width 75%;
@@ -48,6 +51,7 @@ table {
 
 td, th {
 	pading: 5px;
+	border-color: White;
 }
 
 th, caption {
